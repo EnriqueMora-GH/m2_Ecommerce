@@ -3,11 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Tienda de Electrónica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
 </head>
 <body>
 
+  <header>
+    <!--  <a>Aqui va una Nav Bar: </a><br>
+    <a>Tienda de Electrónica -  Home - Carrito</a> -->
+       
+    <nav class="navbar navbar-expand-lg bg-body-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Tienda de Electrónica</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Carrito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+ <!--  <h1>Nuestros Productos</h1>
+       <h1>Tu Carrito</h1> -->
+
+ <main class="container py-4">
+
+    <section id="01">
+      <h1 class="mb-4">Nuestros Productos</h1>
+      <div class="row" id="02"></div>
+    </section>
+
+    <section id="03" style="display:none">
+      <h1 class="mb-4">Tu Carrito</h1>
+      <div id="04"></div>
+    </section>
+   </main>
+
+
+
+  
+  <!-- <footer>
+    <h5>Tienda de Electrónica</h5>
+    <p>Tu tienda tecnológica con los mejores precios del mercado.</p>
+    <h5>Contacto</h5>
+    <p>
+        contacto@techstore.local<br>
+        +56 9 1234 5678
+    <h5>Dirección</h5>
+    <p>
+        Av. Manuel Rodriguez 1234<br>
+        San Fernando, Chile
+    </p>
+    <p>@ 2026 Tienda de Electrónica. Todos los derechos reservados.</p>
+
+  </footer> -->
+
+<footer class="bg-dark text-light py-5 mt-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Tienda de Electrónica</h5>
+          <p class="mb-0 text-secondary">Tu tienda tecnológica con los mejores precios del mercado.</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Contacto</h5>
+          <p class="mb-0 text-secondary">
+            contacto@techstore.local<br>
+            +56 9 1234 5678
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Dirección</h5>
+          <p class="mb-0 text-secondary">
+            Av. Manuel Rodriguez 1234<br>
+            San Fernando, Chile
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 border-secondary">
+      <p class="text-center text-secondary mb-0">@ 2026 Tienda de Electrónica. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
