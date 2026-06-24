@@ -1,1 +1,9 @@
-/* Borrar */
+#section-detail img {
+  max-height: 400px;
+  width: 60%;
+  object-fit: cover;
+}
+
+footer a {
+  text-decoration: none;
+}
